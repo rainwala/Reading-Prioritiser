@@ -130,7 +130,13 @@ celerybeat.pid
 # Environments
 .env
 .venv
+bin/
+include/
+lib/
+lib64
+pyvenv.cfg
 env/
+share/
 venv/
 ENV/
 env.bak/
@@ -169,3 +175,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+reading_list
+output
+chromadb
